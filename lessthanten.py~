@@ -1,13 +1,13 @@
 
 def lessThanTen(list):
-	#ret = []
+	ret = []
 
-	#for elem in list:
-	#	if elem <= 5:
-	#		ret.append(elem)
+	for elem in list:
+		if elem <= 5:
+			ret.append(elem)
 
-	#return ret
-	ret = [elem for elem in list if elem <= 5]
+	return ret
+
 
 example = [1, 2, 4, 3.5, 6, 8, 15, 85]
 result = lessThanTen(example)
